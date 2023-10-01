@@ -4,7 +4,7 @@
     font-family: sans-serif;
    }
    
-   .headr{
+   .hear{
    background-image:url("../assets/abrir-negocio-de-disfraces.jpg");
    background-size:cover;
    background-repeat: no-repeat;
@@ -159,12 +159,15 @@
    font-weight: 200;
    color:black;
    }
-   
+   .hader{background-color:black;}
+
+   .hader img{border-radius:80px;}
    
     .maingrid p{font-size:200;
    font-weight: bold;
    color: white;}
    
+   .hear img{border-radius:80px;}
    
    
    .maingrid h1{display: grid;
