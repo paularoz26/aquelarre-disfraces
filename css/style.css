@@ -803,7 +803,7 @@
    .section2 p {font-size:20px; display:block; text-align: center; text-shadow:5px 5px 5px deeppink ;} .section3 p{font-size:20px;  display: block; text-align: center; text-shadow:5px 5px 5px deeppink }
    .section4 p{font-size:20px; display:block; text-align: center; text-shadow:5px 5px 5px deeppink  } .section5 p{font-size:20px;  display: block; text-align: center; text-shadow:5px 5px 5px deeppink } .section6 p{ font-size:20px; display:block ; text-align: center; text-shadow:5px 5px 5px deeppink }
    .section7 p{font-size:20px; display: block; text-align: center; text-shadow:5px 5px 5px deeppink } .section8 p{font-size:20px;  display:block; text-align: center; text-shadow:5px 5px 5px deeppink }
-   .parrafo-grid p{background-color:rgb(212, 212, 247);}.secti-grid img{display:none;} .main-grid img{display: none;} .main-grid video{display: block;}
+   .parrafo-grid p{background-color:rgb(212, 212, 247);}.secti-grid img{display:none;} .main-grid video{display: block;}
    .section1 img{display:block; } .section1 video{display:none;}
    .titulo h1{text-align: center; color:red; text-transform:capitalize;
    box-shadow: 4px 4px 4px black;
@@ -867,7 +867,7 @@
    .section2 p {display:block; text-align: center; font-size:20px; background-color:orangered;} .section3 p{display: block;font-size:20px;text-align: center; background-color:orangered;}
    .section4 p{display:block;font-size:20px;text-align: center; background-color:orangered;  } .section5 p{display: block;font-size:20px;text-align: center; background-color:orangered;  } .section6 p{display:block;font-size:20px;text-align: center; background-color:orangered;  }
    .section7 p{display: block;font-size:20px;text-align:center;  background-color:orangered;  } .section8 p{display:block;font-size:20px;text-align: center;  background-color:orangered;  }
-   .parrafo-grid p{text-align:justify; color:white;} .parrafo-grid p{display:none;} .secti-grid img{display:none ;} .main-grid video{display: block;} .main-grid img{display:none;} .grupo-contactos h4{text-align: center; font-size:8px; border-radius:9px; display:flex; width:100%;}
+   .parrafo-grid p{text-align:justify; color:white;} .parrafo-grid p{display:none;} .secti-grid img{display:block ;} .main-grid video{display: block;} .grupo-contactos h4{text-align: center; font-size:8px; border-radius:9px; display:flex; width:100%;}
    .contacto-grid{background-color: blueviolet;
        border-style: double;
        color:red;
@@ -983,7 +983,7 @@
        .section2 img{ display:none;} .section3 img{display: none;} .section4 img{display:none;} .section5 img{display: none;} .section6 img{display: none;}
    .section7 img{ display: none;} .section8 img{display: none;} .section1 img{display: block;} .section2 p {display:block;} .section3 p{display: block;}
    .section4 p{display:block;} .section5 p{display: block;} .section6 p{display:block ;}
-   .section7 p{display: block;} .section8 p{display:block;}.secti-grid img {display:none;}   .main-grid img{display: block;}
+   .section7 p{display: block;} .section8 p{display:block;}.main-grid img{display: block;}.secti-grid video{display: block;}
    .piepagina img{width:40px;height:40px;}.contacto-grid{background-color: rgb(236, 59, 59);border-style: double;
    color:black;font-size:20px;font-family:sans-serif;padding: 25px;display:grid;gap:20px;
    }
@@ -1108,8 +1108,8 @@
        justify-content:center;
        gap:5px;
        text-transform: capitalize;
-       padding:5px;
-       } .navbar li a:hover{ box-shadow:4px 4px 4px deeppink;} .hheader img:hover{ filter:sepia(3);}
+       padding:5px;}
+       .navbar li a:hover{ box-shadow:4px 4px 4px deeppink;} .hheader img:hover{ filter:sepia(3);}
        .section1 p{color:black; }.section1 p:hover{background-color: deeppink;font-style:normal;} 
        .section2 p{display:none;}.section3 p{display:none;}.section4 p{display:none;} .section5 p{display:none;} .section6 p{display:none;} .section7 p{display:none;} .section8 p{display:none;}
        .piepagina img:hover{ box-shadow:5px 5px 5px deeppink;border-color:deeppink;}
