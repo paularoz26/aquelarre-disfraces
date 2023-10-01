@@ -155,10 +155,7 @@ font-size:30px;
 color:white;
 background-color:red;
 border-radius:80px;}
-
-
-
-   
+ 
    .piepagina img{border-radius:60px;
    justify-content: center; }
    
@@ -461,9 +458,7 @@ border-radius:80px;}
    
    .navbar li a{text-decoration:none;
    justify-content: baseline;}
-   
-   .navbar li a:hover{ color:red;
-   background-color: rgb(50, 5, 92);}
+ 
    
    .container-card{width: 100%;
    height:100%;}
@@ -711,7 +706,12 @@ border-radius:80px;}
        flex-wrap: wrap;} .section3 {text-align: center;background-color:rgb(240, 132, 70);} .section2 { text-align:center;background-color:palevioletred;} .section1 h1{ font-family:sans-serif;
         font-weight:bold ; font-size:80px;color:black; text-align: center;} .section4 {text-align: center;background-color:red;} .section5{text-align: center;background-color:green;} .section6 {text-align: center;background-color:rgb(153, 185, 8);} .section7{text-align: center;background-color: grey;}
        .section8 {text-align: center;background-color: rgb(39, 1, 39)}
-       
+       .navbar li a {font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        color:white;
+        background-color:red;
+        border-style:double;
+        border-color:white;
+        border-radius:80px;}
    .maingrid{grid-template-columns:repeat(2,1fr);
    grid-template-rows:repeat(5,1fr) ;
    grid-template-areas:
@@ -828,7 +828,12 @@ border-radius:80px;}
        .col img{border-radius: 80px;}
        .col img{filter:grayscale(2) ;}
        .col img:hover{filter:grayscale(0);}
-   
+       .navbar li a {font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        color:white;
+        background-color:red;
+        border-radius:80px;
+        border-style: double;
+    border-color: white;}
        
        .col li a{color:white;
        list-style:none;
@@ -869,7 +874,7 @@ border-radius:80px;}
    align-items:center; color: aliceblue;} .navbar li a{ display: flex;gap:10px; flex-wrap:wrap;flex-direction: column;} 
    .section1 h1{display: flex; font-weight:40px; font-style:normal; color: black; text-align: center;}
    .headeer{background-color: rgb(218, 55, 55);}
-   .navbar li a{color:black;}
+   .navbar li a{color:black;} .secti-grid video{display: block;}
    .section1 h1 {font-style: italic; font-size:35px ; font-weight:40px;font-style: normal;}
    .section2 img{ display:none;} .section3 img{display: none;} .section4 img{display:none;} .section5 img{display: none;} .section6 img{display: none;}
    .section7 img{ display: none;} .section8 img{display: none;} .section1 img{display: block;}
@@ -919,7 +924,11 @@ border-radius:80px;}
    font-weight:500;
    color:black;
    }
-   
+   .navbar li a {font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:white;
+    background-color:red;
+    border-radius:80px;}
+
    .grupo-contactos label:hover{color:red;
    box-shadow:4px 4px 4px black;
    text-decoration:underline;
@@ -996,9 +1005,11 @@ border-radius:80px;}
    .piepagina img{width:40px;height:40px;}.contacto-grid{background-color: rgb(236, 59, 59);border-style: double;
    color:black;font-size:20px;font-family:sans-serif;padding: 25px;display:grid;gap:20px;
    }
-   .navbar li a{text-decoration:none;
-       color:white;
-       list-style:none;
+   .navbar li a {font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:white;
+    background-color:red;
+    border-radius:80px;
+     list-style:none;
        display:flex;
        justify-content:center;
        gap:5px;
