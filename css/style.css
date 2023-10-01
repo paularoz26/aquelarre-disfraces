@@ -146,9 +146,18 @@
    .piepagina{background-color:grey;
    color:white;
    text-align: center;
-   font-family:sans-serif;}
+   font-family:sans-serif;
+font-size:30px;
+}
    
    
+.navbar li a {font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+color:white;
+background-color:red;
+border-radius:80px;}
+
+
+
    
    .piepagina img{border-radius:60px;
    justify-content: center; }
@@ -1114,7 +1123,7 @@
        .section2 p{display:none;}.section3 p{display:none;}.section4 p{display:none;} .section5 p{display:none;} .section6 p{display:none;} .section7 p{display:none;} .section8 p{display:none;}
        .piepagina img:hover{ box-shadow:5px 5px 5px deeppink;border-color:deeppink;}
        .piepagina img{width:40px;height:40px;}.section1 video{display:block;}.section1 h1{color:white;background-color:red;}
-      
+      .secti-grid video{display: block;}
        .buscador {
            position: fixed;
            right:15px;
